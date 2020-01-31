@@ -9,7 +9,7 @@ private static float costP;
 		do {
 		Scanner input = new Scanner (System.in);
 		
-		System.out.println("Enter the cost of your groceries or 0 to end program: ");
+		System.out.println("Enter the cost of your groceries or 9 to end program: ");
 		cost = input.nextFloat();
 	
 	    if (cost < 0 && cost < 10)
